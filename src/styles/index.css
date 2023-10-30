@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .bg{
@@ -20,6 +23,77 @@
     height: 80%;
     border-radius: 38px;
 
-    
-    
+    display: flex;
+    flex-direction: column;
+ 
 }
+
+.main .find{
+    margin-top: 10px;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.main .find .search{
+    width: 30rem;
+    height: 2rem;
+    border-radius: 14px;
+    border: 1px transparent;
+    outline: none;
+    color: black ;
+}
+
+.main .find .sc{
+    position: relative;
+    top: 2px;
+    right: 30px;
+    font-size: 20px;
+    color: #58b464;
+}
+
+.main .time{
+    text-align: left;
+    margin-left: 15px;
+    
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.main .center{
+    margin-top: 15px;
+    align-self: center;
+    position: relative;
+    margin-bottom: 22px;
+
+}
+
+.main .center img{
+    width: 400px;
+}
+
+.main .weather{
+    margin-top: 15px;
+    margin-right: 12px;
+    text-align: right;
+}
+
+.main .weather h4{
+    font-size: 32px;
+}
+
+.main .weather h1{
+    font-size: 52px;
+}
+
+.main .weather h2{
+    font-size: 82px;
+}
+
+
+
+
+
+
+
+
+
