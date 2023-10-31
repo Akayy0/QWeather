@@ -6,6 +6,8 @@
 
     <link rel="stylesheet" href="./styles/index.css">
 
+    <script src="./js/index.js" defer></script>
+
     <title>QWeather</title>
 
 </head>
@@ -18,8 +20,8 @@
         <section class="main ">
 
             <div class="find">
-                <input type="text" class="search">
-                <i class="fa-solid fa-magnifying-glass sc"></i>
+                <input type="text" class="search" id="cidadeInput">
+                <i class="fa-solid fa-magnifying-glass sc" onclick="buscarPrevisao()"></i>
                 
             </div>
 
@@ -33,9 +35,9 @@
             </div>
 
             <div class="weather">
-                <h4>Nublado</h4>
-                <h1>Belo Horizonte</h1>
-                <h2>25°</h2>
+                <h4 id="clima">xxx</h4>
+                <h1 id="cidade">xxxx</h1>
+                <h2 id="temperatura">xx°</h2>
             </div>
 
         </section>
