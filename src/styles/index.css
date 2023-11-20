@@ -72,11 +72,14 @@
     align-self: center;
     position: relative;
     margin-bottom: 22px;
+    width: 400px;
+    height: 250px;
 
 }
 
 .main .center img {
     width: 400px;
+    
 }
 
 .main .weather {
